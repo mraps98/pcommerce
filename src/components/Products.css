@@ -1,0 +1,9 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    border: 1px solid black;
+    max-width: 1080px;
+}
