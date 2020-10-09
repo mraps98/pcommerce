@@ -31,7 +31,7 @@ function Cart() {
                         </div>
                         <div className="cart__bottomRight">
                             <div className="cart__checkout">
-                                <h2>Subtotal ({cart? cart.length:0} items): $ {}</h2>
+                                <h2>Subtotal ({cart? cart.length:0} items):  {}</h2>
                                 <div className="cart__checkoutItems">
                                     {cart.map(item => (
                                         <div className="cart__checkoutItem">
