@@ -16,4 +16,5 @@
 }
 .cartproduct > .MuiButton-root{
     width: 100%;
+    background-color: hsla(250, 100%, 75%, 0.98);
 }
