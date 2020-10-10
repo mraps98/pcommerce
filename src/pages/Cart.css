@@ -8,15 +8,22 @@
     width: 100vw;
 }
 
+.cart__top{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
 .cart__bottom{
     margin-top: 10px;
     flex: 1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid black;
+    border: 1px solid rgba(20, 20, 20, 0.5);
     padding: 10px;
     max-width: 1080px;
+    background-color: hsla(200, 100%, 95%, 0.5);
 }
 
 .cart__bottomLeft{
@@ -31,26 +38,39 @@
 }
 
 .cart__bottomRight{
-    border: 1px solid black;
+    border: 1px solid rgba(20, 20, 20, 0.5);
     margin-right: 10px;
     padding: 10px;
     height: fit-content;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(20, 20, 20, 0.5);
 }
 
 .cart__checkout{
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 .cart__checkoutItems{
-    border: 1px solid black;
+    border: 1px solid rgba(20, 20, 20, 0.5);
     padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+}
+
+.cart__checkoutItem:nth-of-type(odd){
+    background-color: rgba(20, 20, 20, 0.1);
 }
 
 .cart__checkoutItem{
     display: flex;
     justify-content: space-between;
     padding: 5px;
+}
+
+.cart__checkoutItemName{
+    color: rgba(20, 20, 20, 0.8);
 }
 
 .cart__checkoutTotal{
@@ -62,4 +82,8 @@
 
 .cart  a{
     text-decoration: none;
+}
+
+.cart .MuiButton-root{
+    width: 100%;
 }

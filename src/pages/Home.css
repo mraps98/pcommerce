@@ -3,6 +3,11 @@
     flex-direction: column;
 }
 
+.home__top{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
 .home__bottom{
     display:flex;
     flex-direction: column;
